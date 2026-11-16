@@ -1,0 +1,27 @@
+
+[
+    {
+        "username": "standard_user",
+        "password": "secret_sauce",
+        "expected": "success",
+        "description": "Login exitoso"
+    },
+    {
+        "username": "locked_out_user",
+        "password": "secret_sauce",
+        "expected": "error",
+        "description": "Usuario bloqueado"
+    },
+    {
+        "username": "usuario_invalido",
+        "password": "password_incorrecta",
+        "expected": "error",
+        "description": "Credenciales incorrectas"
+    },
+    {
+        "username": "",
+        "password": "",
+        "expected": "error",
+        "description": "Campos vacíos"
+    }
+]
